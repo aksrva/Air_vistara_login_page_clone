@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 8rem;
+    background-color: blueviolet;
+}
+header .strip{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 5rem;
+}
+header .strip.strip1{
+    background-color: #eee;
+    color: #582c4f;
+}
+header .strip.strip2{
+    background-color: #fff;
+    text-align: right;
+}
+header nav{
+    width: 100%;
+    height: 4.23rem;
+    background-color: #582c4f;
+}
+header nav .logo_links{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav .logo_links .logo{
+    width: 20%;
+    height: 100%;
+}
+header nav .logo_links .logo img{
+    width: 100%;
+    height: 100%;
+}
+header nav .logo_links .links{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+header nav .logo_links .links ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: end;
+}
+header nav .logo_links .links ul li{
+    line-height: 4.23rem;
+    margin: 0px 2rem;
+    height: 100%;
+    font-size: 1.15em;
+    letter-spacing: 0.3px;
+}
+header nav .logo_links .links ul li:last-child{
+    margin: 0px 0px;
+}
+header nav .logo_links .links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.login_section{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.login_section .strip3{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 13px;
+    padding: 0px 4rem;
+    letter-spacing: 1px;
+    color: #333333;
+}
+.login_section .strip3 a{
+    color: #337ab7;
+    text-decoration: none;
+}
+.login_section .strip3 a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.login_section .form_enrol_section{
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+}
+.login_section .form_enrol_section .form{
+    width: 50%;
+    height: 100%;
+}
+.login_section .form_enrol_section .form .form_logo{
+    width: 60%;
+    margin: auto;
+    height: 120px;
+}
+.login_section .form_enrol_section .form .form_logo img{
+    width: 100%;
+    height: 100%;
+}
+.login_section .form_enrol_section .form form{
+    width: 90%;
+    margin: auto;
+    padding: 2rem 3.8rem;
+}
+.login_section .form_enrol_section .form form .password{
+    position: relative;
+}
+.login_section .form_enrol_section .form form .forgot_password{
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+}
+.login_section .form_enrol_section .form form .forgot_password a{
+    color: #582c4f;
+    text-decoration: none;
+}
+.login_section .form_enrol_section .form form .forgot_password a:hover{
+    font-weight: 600;
+}
+.login_section .form_enrol_section .form form .password .fa{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    color: rgb(107, 107, 107);
+    cursor: pointer;
+}
+.login_section .form_enrol_section .form form h2{
+    font-size: 20px;
+    color: #582c4f;
+}
+.login_section .form_enrol_section .form form input{
+    width: 100%;
+    height: 35px;
+    border: 0.5px solid rgb(65, 64, 64);
+    padding: 0px 30px 0px 10px;
+    margin-top: 1rem;
+    font-size: 14.5px;
+    outline: none;
+}
+.login_section .form_enrol_section .form form input[type="submit"]{
+    background-color: #582c4f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.login_section .form_enrol_section .form form input[type="submit"]:hover{
+    background-color: #7d5a78;
+
+}
+.error{
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ca1111;
+    font-weight: bold;
+}
+.login_section .form_enrol_section .enrol{
+    width: 50%;
+    height: 100%;
+    background-color: #333333;
+    background-image: url(../images/enrolbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 5rem;
+    color: #fff;
+    font-size: 21px;
+    line-height: 30px;
+}
+.login_section .form_enrol_section .enrol ul li{
+    font-size: 15px;
+    margin-left: 3rem;
+}
+.login_section .form_enrol_section .enrol a{
+    font-size: 16px;
+    color: #fff;
+}
+.login_section .form_enrol_section .enrol a:hover{
+   font-weight: bold;
+}
+footer{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+    background: url(../images/footerbg.png);
+    background-position: center;
+    background-size: cover;
+}
+footer .footer_links{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    
+}
+footer .footer_links .related_links{
+    font-size: 15px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    color: #582c4f;
+    border-top: 0.5px solid #43566f37;
+    border-bottom: 0.5px solid #43566f37;
+}
+footer .footer_links .related_links p{
+    font-size: 19px;
+}
+footer .footer_links .related_links i{
+    color: #582c4f;
+    margin-right: 5px;
+    font-size: 18px;
+}
+footer .footer_links .related_links a{
+    text-decoration: none;
+    color: #43566f;
+    font-size: 14px;
+}
+footer .footer_links .links{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 2rem;
+}
+footer .footer_links .links .footer_link{
+    width: 25%;
+    height: 100%;
+}
+footer .footer_links .links .footer_link .footer_link_head h2{
+    font-size: 18px;
+    color: #582c4f;
+    font-weight: 600;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+}
+footer .footer_links .links .footer_link a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 30px;
+    color: #582c4f;
+}
+footer .footer_links .links .footer_link a:hover{
+    color: #b99650;
+}
+footer .footer_links .links .footer_link .social_icons{
+    width: 100%;
+    height: 30px;
+    margin-top: 1rem;
+}
+footer .footer_links .links .footer_link .social_icons a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* background-color: #337ab7; */
+    position: relative;
+    margin-left: 0.4rem;
+}
+footer .footer_links .links .footer_link .social_icons a img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+footer .footer_links .links .footer_link .social_icons a:hover :nth-child(2){
+    display:none;
+}
